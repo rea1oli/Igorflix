@@ -1,0 +1,50 @@
+body{
+    color: white;
+    background: black;
+    font-family: "Bungee Tint", sans-serif;
+}
+
+header {
+    border: solid 1px white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+.chamada {
+    background: rgb(0,0,0);
+    padding-bottom: 45px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+font-size: 25px;
+}
+
+.maratonas-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px
+}
+
+.maratona {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.maratonas-videos img {
+opacity: 0.5;
+height: 250px;
+}
+
+.maratonas-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+}
